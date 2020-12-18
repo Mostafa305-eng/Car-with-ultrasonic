@@ -52,7 +52,7 @@ typedef struct Pwm_Cfg_s_t
 extern ERROR_STATUS Pwm_Init(Pwm_Cfg_s_t *Pwm_Cfg);
 
 /*********************************************************************************/
-/* Function: Error_State Pwm_Start(uint8_t channel,uint8_t Duty);                */
+/* Function: Error_State Pwm_Start(uint8_t channel,uint8_t Duty,uint32 Frequncy);                */
 /* Type: public                                                                  */
 /* Input parameters: Channel ID, Duty cycle(0:100)                               */
 /* Return type : Error State                                                     */
@@ -84,7 +84,7 @@ extern ERROR_STATUS Pwm_Init(Pwm_Cfg_s_t *Pwm_Cfg);
 extern ERROR_STATUS Pwm_Start(uint8 Channel,uint8 Duty,uint32 Frequncy);
 
 /*********************************************************************************/
-/* Function: Error_State Pwm_Start(uint8_t channel,uint8_t Duty);                */
+/* Function: Error_State Pwm_Start(uint8_t channel,uint8_t Duty,uint32 Frequncy);                */
 /* Type: public                                                                  */
 /* Input parameters: Channel ID, Duty cycle(0:100)                               */
 /* Return type : Error State                                                     */
