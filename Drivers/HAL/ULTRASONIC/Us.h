@@ -60,7 +60,7 @@ ERROR_STATUS Us_Trigger(void);
  * Output Parameters: Distance.                                                                   *
  * In_Out Parameters: None.                                                                       *
  * Return           : ERROR_STATUS.                                                               *
- * Description      : This function get the time of high signal of ECUO pulse, then               *
+ * Description      : This function get the time of high signal of ECO pulse, then               *
  *                    use it to calculate the distance, then return the value in the              *
  *                    Distance parameter.                                                         *
  *************************************************************************************************/
